@@ -1,0 +1,17 @@
+{
+  "name": "tnp-css-pack",
+  "version": "0.0.1",
+  "description": "Pack of css helpers",
+  "main": "index.js",
+  "scripts": {
+    "compile": "lessc ./src/all.less > ./all.css",
+    "prepublish": "npm run compile"
+  },
+  "keywords": [
+    "css",
+    "helpers",
+    "less"
+  ],
+  "author": "Andrey Yamanov <tenphi@gmail.com>",
+  "license": "MIT"
+}
